@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7) 50%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(./assets/images/bg.jpg);
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15%;
+}
+
+main h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0 0 30px 0;
+}
+
+main p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.616);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  /* letter-spacing: 1px; */
+  font-style: italic;
+  font-family: "Merriweather", serif;
+}
+
+main i {
+  font-size: 55px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.2);
+  margin-top: 40px;
+}
+
+#container {
+  width: 100%;
+  height: auto;
+  /* background-color: rgb(226, 130, 130); */
+  margin-top: 50px;
+}
+
+#navBar {
+  background-color: #f7f7f725;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  margin: 0 0 0 20px;
+  font-weight: 300;
+}
+
+#nav-icons i {
+  color: #fff;
+  font-size: 14px;
+  margin: 0 20px 0 0;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+#content {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content h5 {
+  padding: 70px 0;
+  font-weight: 300;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  text-align: center;
+  color: #1e252d;
+}
+
+#content h1 {
+  color: #1e252d;
+}
+
+#content p {
+  font-size: 10px;
+  line-height: 30px;
+  color: #1e252db7;
+}
+
+#image {
+  width: 80%;
+  margin: 50px 0;
+}
+
+#image img {
+  width: 100%;
+}
+
+#content button {
+  padding: 10px 35px;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  outline: none;
+  border: 1.5px solid #1e252d;
+  color: #1e252d;
+  margin: 0 0 50px 0;
+}
+
+#allContents {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.contentStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0 0 0;
+  border: 0.5px solid rgba(0, 0, 0, 0.027);
+  width: 50%;
+  height: auto;
+}
+
+.contentStyle h6 {
+  /* padding: 50px 0 0 0; */
+  font-weight: 300;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  text-align: center;
+  color: #1e252db7;
+}
+
+.contentStyle h2 {
+  color: #1e252d;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.contentStyle img {
+  width: 80%;
+}
+
+.contentStyle p {
+  margin: 30px 0;
+  color: #1e252db7;
+}
+
+#slider {
+  width: 100%;
+  height: 60px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slider a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 0.5px solid rgba(0, 0, 0, 0.07);
+  color: #1e252d;
+}
+
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  background-color: #f4f4f4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  padding: 50px 50px 0 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #1e252db7;
+  font-size: 16px;
+  margin-bottom: -10px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: #1e252db7;
+  border: 0.5px solid #1e252db7;
+  outline: none;
+  background-color: transparent;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: #1e252db7;
+  border: 0.5px solid #1e252db7;
+  outline: none;
+  background-color: transparent;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#footerRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  padding: 50px 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footText {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footText h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #1e252db7;
+  font-weight: 500;
+  font-size: 16px;
+  /* margin: 5px 0 0 0; */
+}
+
+#social i {
+  color: #1e252db7;
+  font-size: 16px;
+  margin: 0 0 0 10px;
+}
